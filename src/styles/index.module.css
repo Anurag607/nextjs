@@ -1,0 +1,28 @@
+.page {
+    height: calc(100vh - 60px);
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.h1 {
+    color: #37474f;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.link {
+    color: #07c;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}

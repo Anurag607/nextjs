@@ -1,0 +1,68 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.h1 {
+    width: 100vw;
+    text-transform: capitalize;
+    color: #37474f;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.noteCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 80vh;
+}
+
+.notelink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px solid #07c;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #07c;
+    margin: 1rem 0;
+}
+
+.notes {
+    width: 99vw;
+    height: 71.425vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #e8e8e8;
+    overflow: hidden;
+    color: #37474f;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    cursor: default;
+    gap: 2rem;
+    padding-block: 5rem;
+    margin: 0;
+}
+
+.notes span {
+    cursor: pointer;
+}
