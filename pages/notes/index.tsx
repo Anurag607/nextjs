@@ -41,14 +41,14 @@ const Page = ({note}) => {
 }
 
 export async function getServerSideProps({params,req,res}) {
-  const response = await fetch(`${process.env.API_URL}/api/note/`)
+  const response = await fetch(`${process.env.API_URL1}/api/note/`)
 
   if(!response.ok) {
     res.writeHead(302, { Location: '/' }).end()
     return { props: {} }
   }
 
-  const { data } = await response.json();
+  const { data } = await response.json()
   
   if (data) {
     return {

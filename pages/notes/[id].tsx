@@ -25,7 +25,7 @@ const Page = ({note}) => {
 }
 
 export async function getServerSideProps({params, req, res}) {
-    const response = await fetch(`${process.env.API_URL}/api/note/${params.id}`)
+    const response = await fetch(`${process.env.API_URL1}/api/note/${params.id}`)
 
     if(!response.ok) {
         res.writeHead(302, {Location: '/notes'}).end()
